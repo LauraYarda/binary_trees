@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * greater_than - It checks if all values in the tree are greater than a value
- * @tree: The pointer to the tree to check
- * @val: The value to check against
+ * greater_than - check if all values in the tree are greater than a value
+ * @tree: pointer to the tree to check
+ * @val: value to check against
  *
  * Return: 1 if true, 0 if false
  */
@@ -25,9 +25,9 @@ int greater_than(const binary_tree_t *tree, int val)
 }
 
 /**
- * less_than - It checks if all values in the tree are less than a specific value
- * @tree: The pointer to the tree to check
- * @val: The value to check against
+ * less_than - check if all values in the tree are less than a specific value
+ * @tree: pointer to the tree to check
+ * @val: value to check against
  *
  * Return: 1 if true, 0 if false
  */
@@ -48,8 +48,8 @@ int less_than(const binary_tree_t *tree, int val)
 }
 
 /**
- * binary_tree_is_bst - It checks if a binary tree is a valid binary search tree
- * @tree: The pointer to the root node of the tree to check
+ * binary_tree_is_bst - checks if a binary tree is a valid binary search tree
+ * @tree: pointer to the root node of the tree to check
  *
  * Return: 1 if tree is a valid BST, and 0 otherwise. If tree is NULL, return 0
  */

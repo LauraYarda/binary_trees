@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * _realloc - It reallocates a memory block
+ * _realloc - Reallocates a memory block
  * @ptr: The pointer to the previous memory block
  * @old_size: The size of the old memory block
  * @new_size: The size of the new memory block
@@ -42,11 +42,11 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 }
 
 /**
- * heap_to_sorted_array - It creates a sorted array from a max binary heap tree.
- * @heap: The pointer to the max binary heap.
- * @size: The pointer to the resulting array's size value.
+ * heap_to_sorted_array - Creates a sorted array from a max binary heap tree.
+ * @heap: A pointer to the max binary heap.
+ * @size: A pointer to the resulting array's size value.
  *
- * Return: The pointer to the array, otherwise NULL.
+ * Return: A pointer to the array, otherwise NULL.
  */
 int *heap_to_sorted_array(heap_t *heap, size_t *size)
 {

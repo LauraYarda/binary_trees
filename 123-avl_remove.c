@@ -1,10 +1,10 @@
 #include "binary_trees.h"
 
 /**
- * smallest - It gets the smallest node
- * @node: The tree to query
+ * smallest - gets the smallest node
+ * @node: tree to query
  *
- * Return: The node with the smallest value
+ * Return: node with the smallest value
  */
 static bst_t *smallest(bst_t *node)
 {
@@ -16,11 +16,11 @@ static bst_t *smallest(bst_t *node)
 }
 
 /**
- * remove_node - It removes a value from a binary search tree
- * @root: The tree to query
- * @value: The value of node to remove
+ * remove_node - removes a value from a binary search tree
+ * @root: tree to query
+ * @value: value of node to remove
  *
- * Return: The parent
+ * Return: the parent
  */
 static bst_t *remove_node(bst_t **root, int value)
 {
@@ -69,8 +69,8 @@ static bst_t *remove_node(bst_t **root, int value)
 /**
  * adjust_balance_1 - Adjusts the balance of an AVL tree by \
  * rotating the unbalanced subtree.
- * @root: The pointer to the address of the root of the tree.
- * @node: The pointer to the inserted node.
+ * @root: A pointer to the address of the root of the tree.
+ * @node: A pointer to the inserted node.
  */
 void adjust_balance_1(avl_t **root, avl_t *node)
 {
@@ -111,8 +111,8 @@ void adjust_balance_1(avl_t **root, avl_t *node)
 }
 
 /**
- * avl_remove - It removes the node with a given value from an AVL tree.
- * @root: The pointer to the root of the AVL tree.
+ * avl_remove - Removes a node with a given value from an AVL tree.
+ * @root: A pointer to the root of the AVL tree.
  * @value: The value of the node to remove.
  *
  * Return: The new root node, otherwise NULL.

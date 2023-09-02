@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * check_balance - It checks the balance of each node
+ * check_balance - checks the balance of each node
  *
- * @node: The pointer to the node
- * @value: The input value
- * Return: The no return
+ * @node: pointer to the node
+ * @value: input value
+ * Return: no return
  */
 void check_balance(avl_t **node, int value)
 {
@@ -41,11 +41,11 @@ void check_balance(avl_t **node, int value)
 }
 
 /**
- * avl_in - It checks if node is inserted
+ * avl_in - checks if node is inserted
  *
- * @tree: The tree root
- * @value: The node value
- * Return: The pointer to the new node
+ * @tree: tree root
+ * @value: node value
+ * Return: pointer to the new node
  */
 avl_t *avl_in(avl_t **tree, int value)
 {
@@ -87,11 +87,11 @@ avl_t *avl_in(avl_t **tree, int value)
 }
 
 /**
- * avl_insert - It inserts a value in a AVL Tree
+ * avl_insert - inserts a value in a AVL Tree
  *
- * @tree: The tree root
- * @value: The node value
- * Return: The pointer to the new node
+ * @tree: tree root
+ * @value: node value
+ * Return: pointer to the new node
  */
 avl_t *avl_insert(avl_t **tree, int value)
 {

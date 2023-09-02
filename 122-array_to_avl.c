@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * array_to_avl - It creates an AVL tree from an array.
+ * array_to_avl - Creates an AVL tree from an array.
  * @array: The array of values.
  * @size: The length of the array.
  *
- * Return: The pointer to the AVL tree, otherwise NULL.
+ * Return: A pointer to the AVL tree, otherwise NULL.
  */
 avl_t *array_to_avl(int *array, size_t size)
 {
