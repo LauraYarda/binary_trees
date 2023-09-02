@@ -1,5 +1,5 @@
 #include "binary_trees.h"
-
+#include "limits.h"
 /**
  * binary_tree_is_avl - finds if a binary tree is an avl
  * @tree: pointer to the root node of the tree
@@ -12,7 +12,7 @@ int binary_tree_is_avl(const binary_tree_t *tree)
 	if (!tree)
 		return (0);
 
-	return (btia_helper(tree, INT_MIN, INT_MAX));
+	return (btia_helper(tree, INT_MIN, INT_MAX);
 }
 
 /**
